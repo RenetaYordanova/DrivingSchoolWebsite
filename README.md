@@ -6,4 +6,4 @@ Features:
  -User-friendly navigation for convenient access to course information, services, and registration.
  -Interactive elements like user registration and a form for questions
 
- [Driving school website](https://renetayordanova.github.io/umnikormila.github.io/)
+ [Driving school website](https://renetayordanova.github.io/DrivingSchoolWebsite/)
