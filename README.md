@@ -1,5 +1,8 @@
 # DrivingSchoolWebsite
-Driving school website using HTML, CSS, and PHP to offer course details, services, user registration, and interactivity, currently under development.
+
+[Driving school website](https://renetayordanova.github.io/DrivingSchoolWebsite/)
+
+Driving school website using HTML, CSS,JS and PHP to offer course details, services, user registration, and interactivity, currently under development.
 
 Features:
 
@@ -9,4 +12,4 @@ Features:
  
  -Interactive elements like user registration and a form for questions
 
- [Driving school website](https://renetayordanova.github.io/DrivingSchoolWebsite/)
+
