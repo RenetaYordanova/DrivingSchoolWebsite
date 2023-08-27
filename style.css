@@ -118,8 +118,9 @@ a:hover{
   .contact-form textarea {
                 height: 120px;
                 width: 100%;
+                resize:none;
                 background-color: lightgreen;
-                 border-radius:10px;
+                border-radius:10px;
                 }
 
 
