@@ -6,7 +6,7 @@ Driving school website using HTML, CSS, JS and PHP to offer course details, serv
 
 Features:
 
- -Responsive website with HTML5, CSS3, and PHP
+ -Responsive website with HTML5, CSS3, JS and PHP
  
  -User-friendly navigation for convenient access to course information, services, and registration
  
