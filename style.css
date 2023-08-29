@@ -282,6 +282,14 @@ a:hover{
      float:right;
      margin-right: 640px;
 }
+.A{
+       margin-top: -250px;
+       margin-right: 80px;
+       width: 400px;
+       height: auto;
+       float: right;
+       border-radius: 10px;
+   }
 
 
 
