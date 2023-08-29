@@ -268,9 +268,20 @@ a:hover{
     }
 .map-section{
      color:white;
+     padding-left:50px;
+     padding-top:40px;
 
 }
 
+.map{
+
+     width: 650px;
+     height: auto;
+     margin-top:30px;
+     border-radius: 10px;
+     float:right;
+     margin-right: 640px;
+}
 
 
 
