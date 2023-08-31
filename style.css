@@ -290,6 +290,21 @@ a:hover{
        float: right;
        border-radius: 10px;
    }
+.B{
+     margin-top: -10px;
+     width: 400px;
+     height: auto;
+     border-radius: 10px;
+
+}
+.C{
+           margin-top: -250px;
+           margin-right: 80px;
+           width: 500px;
+           height: auto;
+           float: right;
+           border-radius: 10px;
+
 
 
 
