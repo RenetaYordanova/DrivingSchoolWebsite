@@ -282,6 +282,7 @@ nav li:hover .dropdown-menu {
          border-radius: 10px;
          float:right;
          margin-right: 640px;
+         border: 5px solid black;
      }
 
 
@@ -292,6 +293,7 @@ nav li:hover .dropdown-menu {
        height: auto;
        float: right;
        border-radius: 10px;
+       border: 5px solid black;
      }
 
 
@@ -300,6 +302,7 @@ nav li:hover .dropdown-menu {
         width: 400px;
         height: auto;
         border-radius: 10px;
+        border: 5px solid black;
      }
      
 
@@ -310,6 +313,7 @@ nav li:hover .dropdown-menu {
        height: auto;
        float: right;
        border-radius: 10px;
+       border: 5px solid black;
     }
 
 
