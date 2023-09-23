@@ -142,7 +142,7 @@ nav li:hover .dropdown-menu {
               }
 
 
-        contact-form textarea {
+        .contact-form textarea {
                 height: 120px;
                 width: 100%;
                 resize:none;
