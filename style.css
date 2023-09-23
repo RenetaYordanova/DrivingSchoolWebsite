@@ -39,19 +39,6 @@ nav ul {
     }
 
 
-@media (max-width: 768px) {
-         .container {
-            flex-direction: column;
-        }
-         nav ul {
-                flex-direction: column;
-            }
-
-            nav ul li {
-                margin: 5px 0;
-            }
-    }
-
 
 nav ul li {
         list-style: none;
