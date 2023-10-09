@@ -12,17 +12,17 @@ body {
         margin: 0;
         padding: 0;
         border: 0;
-    }
 
-  body::before {
+    }
+    body::before {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5); 
-        z-index: -1; 
+        background-color: rgba(0, 0, 0, 0.4); /* Цветът и прозрачността на затъмнението */
+        z-index: -1; /* Поместете затъмнението под съдържанието на страницата */
     }
 
 
@@ -32,8 +32,11 @@ body {
         height: auto;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content:center;
         padding:10px;
+        margin: 0 auto; /* Добавете този стил, за да центрирате контейнера хоризонтално */
+        max-width: 1500px;
+
    }
 
 
@@ -55,12 +58,13 @@ nav ul {
 
 
 
+
 nav ul li {
         list-style: none;
         display: inline-block;
         padding: 13px 35px;
         margin:0  10px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         color: black;
         cursor: pointer;
@@ -97,6 +101,7 @@ nav .dropdown-menu {
         background: #fff;
         padding: 10px;
         z-index: 1;
+         border-radius:10px;
     }
 
 
@@ -116,7 +121,7 @@ nav li:hover .dropdown-menu {
 
 
 .content {
-        color: white;
+        color:white;
         padding-left:30px;
      }
 
@@ -131,64 +136,66 @@ nav li:hover .dropdown-menu {
         background-color: lightgreen;
         border-radius:10px;
         border: 5px solid black;
+        margin-bottom: 20px;
      }
 
 
-        .contact-form input {
-                display: block;
-                margin-bottom: 5px;
-                width: 100%;
-                background-color: lightgreen;
-                bottom:0;
-                border-radius:10px;
-              }
+.contact-form input {
+        display: block;
+        margin-bottom: 5px;
+        width: 100%;
+        background-color: lightgreen;
+        bottom:0;
+        border-radius:10px;
+      }
 
 
-        .contact-form textarea {
-                height: 120px;
-                width: 100%;
-                resize:none;
-                background-color: lightgreen;
-                border-radius:10px;
-              }
+.contact-form textarea {
+        height: 120px;
+        width: 100%;
+        resize:none;
+        background-color: lightgreen;
+        border-radius:10px;
+      }
 
 
-        .contact-form button[type="submit"] {
-                display: block;
-                margin-top: 10px;
-                background-color: lightgreen;
-                border-radius:10px;
-               }
+.contact-form button[type="submit"] {
+        display: block;
+        margin-top: 10px;
+        background-color: lightgreen;
+        border-radius:10px;
+       }
 
 
 .contact-info {
-         width: 295px;
-         height:220px;
-         padding: 10px;
+         width: 320px;
+         height:230px;
+         padding:20px;
          background-color: lightgreen;
          position: relative;
          right:-1000px;
-         margin-top:-160px;
+         margin-top:-220px;
          color: black;
          border-radius:10px;
          border: 5px solid black;
+         margin-bottom: 50px;
 
        }
 
 
             .contact-info h2 {
                      font-size: 24px;
-                     margin-bottom: 5px;
+                     margin-bottom: 10px;
                   }
 
 
             .contact-details {
-                     margin-top: 10px;
+                     margin: 7px;
                   }
 
 
             .contact-details p {
-                     margin: 3px;
+                     margin: 13px 0;
 
                   }
              .info {
@@ -198,7 +205,7 @@ nav li:hover .dropdown-menu {
 
 .reg {
 
-        width: 255px;
+        width: 280px;
         height:240px;
         left:1000px;
         padding: 25px;
@@ -239,8 +246,8 @@ nav li:hover .dropdown-menu {
 
 
             .btn{
-                     width: 120px;
-                     height:40px;
+                     width: 130px;
+                     height:45px;
                      border-radius:5px;
                      border: 3px solid black;
                      background:lightgrey;
@@ -248,8 +255,8 @@ nav li:hover .dropdown-menu {
                      cursor:pointer;
                      color: black;
                      transition:0.4 s ease;
-                     margin-bottom:30px;
-                     margin-left:10px;
+                     margin-bottom:40px;
+                     margin-left:21px;
                      text-align:center;
                  }
 
@@ -274,19 +281,27 @@ nav li:hover .dropdown-menu {
 
 .category{
        color:white;
+       margin-left: 25px;
+       font-family:Verdana;
+       font-size:18px;
 
 }
 
 
 .about-section {
+      margin-left: 25px;
       color: white;
+      font-family:Verdana;
+      font-size:18px;
     }
 
 
 .map-section{
        color:white;
-       padding-left:50px;
+       margin-left: 25px;
        padding-top:40px;
+       font-family:Verdana;
+       font-size:18px;
      }
 
 
@@ -294,10 +309,12 @@ nav li:hover .dropdown-menu {
          width: 650px;
          height: auto;
          margin-top:30px;
+         margin-bottom:30px;
          border-radius: 10px;
          float:right;
-         margin-right: 640px;
+         margin-right: 850px;
          border: 5px solid black;
+
      }
 
 
@@ -319,7 +336,7 @@ nav li:hover .dropdown-menu {
         border-radius: 10px;
         border: 5px solid black;
      }
-     
+
 
 .C{
        margin-top: -250px;
@@ -329,7 +346,78 @@ nav li:hover .dropdown-menu {
        float: right;
        border-radius: 10px;
        border: 5px solid black;
-    }
+     }
+
+
+.R{
+       width: 40%;
+       height: auto;
+       border-radius: 10px;
+       border: 5px solid black;
+      }
+
+
+.useful {
+        font-family:Verdana;
+        font-size:18px;
+       }
+
+
+#БЧК {
+       color: white;
+       margin-left: 25px;
+     }
+
+
+.P {
+      margin-left: 330px;
+      margin-top: -160px;
+     }
+
+
+#документи-КАТ {
+        color: white;
+        margin-left: 25px;
+      }
+
+
+#психотест {
+        color: white;
+        margin-left: 25px;
+      }
+
+
+#връзки {
+          margin-top: 60px;
+       }
+
+
+                #връзки a {
+                    color: white;
+                    text-decoration: none;
+                    transition: color 0.3s;
+                    margin-left: 35px;
+                   }
+
+                #връзки a:hover {
+                    color: lightgreen;
+                    text-decoration: underline;
+                   }
+
+                #връзки li {
+                    margin-bottom: 10px;
+                   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
